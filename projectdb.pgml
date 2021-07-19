@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#001a41"/>
+                <dmcolor key="secondary" color="#e30613"/>
+                <dmcolor key="info" color="#1b9bb0"/>
+                <dmcolor key="success" color="#156c72"/>
+                <dmcolor key="warning" color="#e9d951"/>
+                <dmcolor key="danger" color="#efa240"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#e5f0ff"/>
+                <dmcolor key="dark" color="#393c40"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Roboto" headings_family="Montserrat" headings_weight="bold" text_weight lead_family="Roboto"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true"></dmdesignskill>
+            <dmdesignskill skill="bootstrap"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="true" bs5-colors-secondary="true" bs5-colors-info="true" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true" fonts-text_family="true" fonts-headings_family="true"></dmlocked>
+</project>
