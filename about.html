@@ -7,6 +7,9 @@
         <meta name="description" content="Pinegrow Web Editor - Agency Bootstrap v5 Template">
         <meta name="author" content="">
         <title>About Us - Forensic Engineering Company, LLC</title>
+        <!-- Scripts for the interactive map -->
+        <script type="text/javascript" src="assets/js/mapdata.js"></script>         
+        <script type="text/javascript" src="assets/js/usmap.js"></script>
         <!-- Import Roboto so that it will work on Apple products -->
         <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');</style>
         <!-- Bootstrap core CSS -->
@@ -54,111 +57,89 @@
                     <p class="fs-3 mb-0" data-pgc-field="subtitle">"Those who make peaceful revolution impossible will make violent revolution inevitable." - J.F. Kennedy</p>
                 </div>
             </section>
-            <section class="border-bottom pb-5 pt-5"> 
+            <section class="border-bottom pt-5"> 
                 <div class="container pb-5 pt-5"> 
                     <div class="row"> 
-                        <div class="col-lg-4"> 
+                        <div class="col-lg-5"> 
                             <h2 class="h5 text-primary">Our Vision</h2> 
-                            <h3 class="h2 mb-4 text-dark">In the future, engineers and architects will communicate with precision and speed. They will restore their reputation as true leaders in the building industry.&nbsp;</h3> 
+                            <h3 class="h2 mb-4 text-dark">In the future, engineers and architects will communicate with precision and speed. They will restore their reputation as nimble thought leaders in the building industry.&nbsp;</h3> 
                         </div>
-                        <div class="col-lg-8 col-xl-7 offset-xl-1"> 
+                        <div class="col-lg-7"> 
                             <h2 class="h5 text-primary">Our Mission</h2>
-                            <p class="lead mb-4">The existing building repair and restoration industry has lagged behind most other industries in its adoption of modern communication technology. FEC will drive it forward by harnessing latest generation technology during all phases of a project to provide <i>bespoke service with revolutionary speed.</i></p>
-                            <h2 class="h5 text-primary">Our Values</h2>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h4 class="mb-3 text-dark">Purposeful Speed</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                                <div class="col-md-5 offset-md-1">
-                                    <h4 class="mb-3 text-dark">Physical Fitness</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                            </div>                             
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h4 class="mb-3 text-dark">Interactive</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                                <div class="col-md-5 offset-md-1">
-                                    <h4 class="mb-3 text-dark">Technophilia</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h4 class="mb-3 text-dark">Pragmatism</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                                <div class="col-md-5 offset-md-1">
-                                    <h4 class="mb-3 text-dark">Empathy</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h4 class="mb-3 text-dark">Integrity</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                                <div class="col-md-5 offset-md-1">
-                                    <h4 class="mb-3 text-dark">Humility</h4> 
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                                </div>
-                            </div>                             
+                            <p class="lead mb-4">The building repair and restoration industry has lagged behind most others in its adoption of modern technology. In particular, forensic engineers and architects are among the most compacent, commonly using decades-old processes and tools for communication that are regarded as obsolete in parallel professional service industries.</p>
+                            <p class="lead mb-4">FEC will drive the building repair and restoration industry forward by utilizing and developing latest generation technology from 3D imaging to UAVs to client/project-specific web applications. We will pursue process improvements from inception to close-out, always striving to provide <b><i>bespoke expert service with revolutionary speed.</i></b></p> 
                         </div>                         
                     </div>                     
                 </div>
-                <div class="container"> 
-                    <div class="justify-content-center row"> 
-                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
-                            <div class="bg-light px-4 py-5 text-dark">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="mb-3">
+                <div class="container pt-5 pb-5"> 
+                    <div class="row"> 
+                        <h2 class="h5 text-primary">Our Values</h2>
+                        <p class="lead mb-4">Our core values are seriously different, and we consciously return to them for guidance in all decisions, strategic to tactical.&nbsp;</p>
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
                                     <path fill="none" d="M0 0h24v24H0z"/>
-                                    <path d="M15.199 9.945a2.6 2.6 0 0 1-.79-1.551l-.403-3.083-2.73 1.486a2.6 2.6 0 0 1-1.72.273L6.5 6.5l.57 3.056a2.6 2.6 0 0 1-.273 1.72l-1.486 2.73 3.083.403a2.6 2.6 0 0 1 1.55.79l2.138 2.257 1.336-2.807a2.6 2.6 0 0 1 1.23-1.231l2.808-1.336-2.257-2.137zm.025 5.563l-2.213 4.65a.6.6 0 0 1-.977.155l-3.542-3.739a.6.6 0 0 0-.357-.182l-5.107-.668a.6.6 0 0 1-.449-.881l2.462-4.524a.6.6 0 0 0 .062-.396L4.16 4.86a.6.6 0 0 1 .7-.7l5.063.943a.6.6 0 0 0 .396-.062l4.524-2.462a.6.6 0 0 1 .881.45l.668 5.106a.6.6 0 0 0 .182.357l3.739 3.542a.6.6 0 0 1-.155.977l-4.65 2.213a.6.6 0 0 0-.284.284zm.797 1.927l1.414-1.414 4.243 4.242-1.415 1.415-4.242-4.243z"/>
-                                </svg>
-                                <h2 class="fw-bold h1 mb-1">120+</h2>
-                                <p class="mb-0">Projects Build</p>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
-                            <div class="bg-light px-4 py-5 text-dark">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="mb-3">
-                                    <path fill="none" d="M0 0h24v24H0z"/>
-                                    <path d="M16 13V5H6v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2zM5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1zm13 2v3h2V5h-2zM2 19h18v2H2v-2z"/>
-                                </svg>
-                                <h2 class="fw-bold h1 mb-1">1349+</h2>
-                                <p class="mb-0">Cups of Coffee</p>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
-                            <div class="bg-light px-4 py-5 text-dark">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="mb-3">
-                                    <path fill="none" d="M0 0h24v24H0z"/>
-                                    <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-4-7h8a4 4 0 1 1-8 0zm0-2a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm8 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-                                </svg>
-                                <h2 class="fw-bold h1 mb-1">75+</h2>
-                                <p class="mb-0">Satisfied Clients</p>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
-                            <div class="bg-light px-4 py-5 text-dark">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="mb-3">
-                                    <path fill="none" d="M0 0h24v24H0z"/>
-                                    <path d="M17 15.245v6.872a.5.5 0 0 1-.757.429L12 20l-4.243 2.546a.5.5 0 0 1-.757-.43v-6.87a8 8 0 1 1 10 0zm-8 1.173v3.05l3-1.8 3 1.8v-3.05A7.978 7.978 0 0 1 12 17a7.978 7.978 0 0 1-3-.582zM12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/>
-                                </svg>
-                                <h2 class="fw-bold h1 mb-1">15+</h2>
-                                <p class="mb-0">Awards &amp; Nominations</p>
+                                    <path d="M8 8v8h8V8H8zM6 6h12v12H6V6zm0-4h2v3H6V2zm0 17h2v3H6v-3zM2 6h3v2H2V6zm0 10h3v2H2v-2zM19 6h3v2h-3V6zm0 10h3v2h-3v-2zM16 2h2v3h-2V2zm0 17h2v3h-2v-3z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Integrity</h4> 
+                                <p>The building repair and restoration industry presents many opportunities to profit from dishonest behavior, especially after catastrophes. We embrace our ethical obligation to lead by example with honesty and transparency.</p> 
                             </div>                             
                         </div>                         
-                    </div>                     
-                </div>
-                <div class="container py-5"> 
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class=""> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M8 5h3v9H8v3H6v-3H3V5h3V2h2v3zM5 7v5h4V7H5zm13 3h3v9h-3v3h-2v-3h-3v-9h3V7h2v3zm-3 2v5h4v-5h-4z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Humble Interaction</h4> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat sem ac elit rutrum rhoncus. Donec a lacinia metus. Morbi volutpat interdum sem, vitae aliquam odio tempor blandit.</p> 
+                            </div>                             
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class=""> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Purposeful Speed</h4> 
+                                <p>We move fast in the office and in the field. We recognize time is valuable for everyone, and for us every hour on site is particularly precious. When conducting a site investigation, we arrive prepared with backups and contingency plans.</p> 
+                            </div>                             
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class=""> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M5 4.604v9.185a4 4 0 0 0 1.781 3.328L12 20.597l5.219-3.48A4 4 0 0 0 19 13.79V4.604L12 3.05 5 4.604zM3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976zM12 13.5l-2.939 1.545.561-3.272-2.377-2.318 3.286-.478L12 6l1.47 2.977 3.285.478-2.377 2.318.56 3.272L12 13.5z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Technophilia</h4> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat sem ac elit rutrum rhoncus. Donec a lacinia metus. Morbi volutpat interdum sem, vitae aliquam odio tempor blandit.</p> 
+                            </div>                             
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
+                                    <path fill="none" d="M0 0L24 0 24 24 0 24z"/>
+                                    <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10c-1.702 0-3.305-.425-4.708-1.175L2 22l1.176-5.29C2.426 15.306 2 13.703 2 12 2 6.477 6.477 2 12 2zm0 2c-4.418 0-8 3.582-8 8 0 1.335.326 2.618.94 3.766l.35.654-.656 2.946 2.948-.654.653.349c1.148.614 2.43.939 3.765.939 4.418 0 8-3.582 8-8s-3.582-8-8-8zm1 3v5h4v2h-6V7h2z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Physical Fitness</h4> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat sem ac elit rutrum rhoncus. Donec a lacinia metus. Morbi volutpat interdum sem, vitae aliquam odio tempor blandit.</p> 
+                            </div>                             
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xl-4 pb-3 pt-3"> 
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="60" height="60" class="mb-3 text-primary">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M18 20H6v2H4v-2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1h-1v2h-2v-2zM4 18h16V5H4v13zm9-4.126V17h-2v-3.126A4.002 4.002 0 0 1 12 6a4 4 0 0 1 1 7.874zM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                </svg>                                 
+                                <h4 class="h4 mb-3 text-dark">Commitment</h4> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat sem ac elit rutrum rhoncus. Donec a lacinia metus. Morbi volutpat interdum sem, vitae aliquam odio tempor blandit.</p> 
+                            </div>                             
+                        </div>                         
+                    </div>
                     <div class="row text-center"> 
                         <div class="col-lg-8 ms-auto me-auto"> 
                             <h3 class="h2 mb-4 text-dark">Watch Our Showreel</h3>
-                            <div class="ratio ratio-16x9"> 
-                                <iframe width="560" src="https://www.youtube.com/embed/ITSMOYJ6usA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;" class="ratio-item" title="Introduction to Pinegrow"></iframe>
-                            </div>                             
+                            <div id="map"></div>
                         </div>                         
                     </div>                     
                 </div>                 
@@ -268,7 +249,7 @@
                                                         <path d="M6.75 2.5A4.25 4.25 0 0 1 11 6.75V11H6.75a4.25 4.25 0 1 1 0-8.5zM9 9V6.75A2.25 2.25 0 1 0 6.75 9H9zm-2.25 4H11v4.25A4.25 4.25 0 1 1 6.75 13zm0 2A2.25 2.25 0 1 0 9 17.25V15H6.75zm10.5-12.5a4.25 4.25 0 1 1 0 8.5H13V6.75a4.25 4.25 0 0 1 4.25-4.25zm0 6.5A2.25 2.25 0 1 0 15 6.75V9h2.25zM13 13h4.25A4.25 4.25 0 1 1 13 17.25V13zm2 2v2.25A2.25 2.25 0 1 0 17.25 15H15z"/>
                                                     </g>                                                     
                                                 </svg>
-                                                <h4 class="text-white">Construction Defect Forensics</h4>
+                                                <h4 class="text-white">Construction Defect Investigation</h4>
                                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
                                             </div>                                             
                                         </div>                                         
