@@ -13,7 +13,7 @@
                 <dmcolor key="light" color="#e5f0ff"/>
                 <dmcolor key="dark" color="#393c40"/>
             </dmdesignskill>
-            <dmdesignskill skill="fonts" text_family="Roboto" headings_family="Montserrat" headings_weight="bold" text_weight lead_family="Roboto" headings_effect></dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Roboto" headings_family="Montserrat" headings_weight="bold" text_weight lead_family="Roboto"></dmdesignskill>
             <dmdesignskill skill="headings"></dmdesignskill>
             <dmdesignskill skill="background" image_for_colors="true"></dmdesignskill>
             <dmdesignskill skill="bootstrap"></dmdesignskill>
