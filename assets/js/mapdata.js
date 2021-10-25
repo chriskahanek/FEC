@@ -9,8 +9,8 @@ var simplemaps_usmap_mapdata={
     
     //State defaults
     state_description: "Currently pursuing business license.",
-    state_color: "#e39fa3",
-    state_hover_color: "#e37179",
+    state_color: "#c7c5c5",
+    state_hover_color: "#6a6868",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -18,7 +18,7 @@ var simplemaps_usmap_mapdata={
     
     //Location defaults
     location_description: "Add location markers using latitude and longitude!",
-    location_color: "#efa240",
+    location_color: "#e30613",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
@@ -72,9 +72,9 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
-      hover_color: "#e30613",
-      color: "#e3444f",
-      description: "Professional Engineer"
+      description: "Professional Engineer",
+      color: "#001a41",
+      hover_color: "#e30613"
     },
     AK: {
       name: "Alaska"
@@ -82,8 +82,8 @@ var simplemaps_usmap_mapdata={
     FL: {
       name: "Florida",
       hover_color: "#e30613",
-      color: "#e3444f",
-      description: "Professional Engineer"
+      color: "#001a41",
+      description: "Engineering and Architecture"
     },
     NH: {
       name: "New Hampshire"
@@ -131,7 +131,10 @@ var simplemaps_usmap_mapdata={
       name: "Connecticut"
     },
     WI: {
-      name: "Wisconsin"
+      name: "Wisconsin",
+      color: "#001a41",
+      hover_color: "#e30613",
+      description: "Professional Engineer"
     },
     NC: {
       name: "North Carolina"
@@ -144,25 +147,25 @@ var simplemaps_usmap_mapdata={
     },
     TN: {
       name: "Tennessee",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
     AR: {
       name: "Arkansas",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
     MO: {
       name: "Missouri",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
     GA: {
       name: "Georgia",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
@@ -175,53 +178,62 @@ var simplemaps_usmap_mapdata={
     AL: {
       name: "Alabama",
       hover_color: "#e30613",
-      color: "#e3444f",
+      color: "#001a41",
       description: "Professional Engineer"
     },
     LA: {
       name: "Louisiana",
       hover_color: "#e30613",
-      color: "#e3444f",
+      color: "#001a41",
       description: "Professional Engineer"
     },
     MS: {
       name: "Mississippi",
       hover_color: "#e30613",
-      color: "#e3444f",
+      color: "#001a41",
       description: "Professional Engineer"
     },
     IA: {
-      name: "Iowa"
+      name: "Iowa",
+      color: "#001a41",
+      hover_color: "#e30613",
+      description: "Professional Engineer"
     },
     MN: {
-      name: "Minnesota"
+      name: "Minnesota",
+      color: "#001a41",
+      hover_color: "#e30613",
+      description: "Professional Engineer"
     },
     OK: {
       name: "Oklahoma",
       hover_color: "#e30613",
-      color: "#e3444f",
+      color: "#001a41",
       description: "Professional Engineer"
     },
     TX: {
       name: "Texas",
-      description: "Professional Engineer",
+      description: "Engineering and Architecture",
       hover_color: "#e30613",
-      color: "#e3444f"
+      color: "#001a41"
     },
     NM: {
       name: "New Mexico",
       hover_color: "#e30613",
-      color: "#e3444f",
+      color: "#001a41",
       description: "Professional Engineer"
     },
     KS: {
       name: "Kansas",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
     NE: {
-      name: "Nebraska"
+      name: "Nebraska",
+      color: "#001a41",
+      hover_color: "#e30613",
+      description: "Professional Engineer"
     },
     SD: {
       name: "South Dakota"
@@ -237,7 +249,7 @@ var simplemaps_usmap_mapdata={
     },
     CO: {
       name: "Colorado",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
@@ -246,9 +258,9 @@ var simplemaps_usmap_mapdata={
     },
     AZ: {
       name: "Arizona",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
-      description: "Professional Engineer"
+      description: "Engineering and Architecture"
     },
     NV: {
       name: "Nevada"
@@ -261,7 +273,7 @@ var simplemaps_usmap_mapdata={
     },
     CA: {
       name: "California",
-      color: "#e3444f",
+      color: "#001a41",
       hover_color: "#e30613",
       description: "Professional Engineer"
     },
@@ -289,28 +301,28 @@ var simplemaps_usmap_mapdata={
   },
   locations: {
     "0": {
-      name: "South Florida",
-      lat: "26",
-      lng: "-80.3",
-      description: "Chris Fidler"
+      name: "Milwaukee",
+      lat: "43.07",
+      lng: "-87.91",
+      description: "Robert Merkel, PE"
     },
     "1": {
       name: "Central Texas",
       lat: "30.22717835",
       lng: "-97.75833851",
-      description: "Brenden Adams"
+      description: "Brenden Adams, PE"
     },
     "2": {
-      lat: "32.63229314",
-      lng: "-97.75025694",
+      lat: "32.76",
+      lng: "-97.8",
       name: "North Texas",
-      description: "Payden Johnson"
+      description: "Payden Johnson, PE"
     },
     "3": {
       lat: "33.62488362",
       lng: "-112.0669394",
       name: "Phoenix",
-      description: "Chris Kahanek"
+      description: "Chris Kahanek, PE, AIA"
     },
     "4": {
       lat: "38.8745377",
