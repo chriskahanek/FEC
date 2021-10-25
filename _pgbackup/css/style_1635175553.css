@@ -1,7 +1,7 @@
 .absolutelogo {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: absolute;
+    top: 10;
+    left: 10;
     z-index: 9999;
 }
 
