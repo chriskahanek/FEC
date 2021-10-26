@@ -12,18 +12,25 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="blocks.css">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
     </head>
     <body>
+        <span class="animated fadeInLeft absolutelogo pb-1 ps-3"><a href="#"><img src="pics/FEC-40px-shadow.png"></a></span>
         <nav class="bg-primary navbar navbar-dark navbar-expand-lg pb-1 pt-1 py-4 py-lg-2 text-uppercase"> 
             <div class="container"> 
-                <a class="navbar-brand animated fadeInLeft" href="#"><img src="pics/FEC_onBlue.svg" height="20"></a> 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-21" aria-controls="navbarNavDropdown-21" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="navbar-toggler-icon"></span> 
+                <a class="navbar-brand" href="#"><img src="pics/FEC_onBlue.svg" height="20"></a> 
+                <button class="border-0 btn btn-outline-light order-lg-1 pb-1 pt-1 py-2" type="button" aria-label="search"> 
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"> 
+                        <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/> 
+                    </svg>                     
                 </button>                 
-                <div class="collapse navbar-collapse " id="navbarNavDropdown-21"> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler2" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler2">
                     <ul class="ms-auto navbar-nav"> 
-                        <li class="nav-item dropdown"> 
-                            <a class="dropdown-toggle nav-link p-lg-3 px-lg-3 py-lg-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a> 
+                        <li class="dropdown nav-item"> 
+                            <a class="dropdown-toggle nav-link pb-lg-1 pe-lg-3 ps-lg-3 pt-lg-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a> 
                             <div class="bg-light dropdown-menu opacity-85" aria-labelledby="navbarDropdownMenuLink"> 
                                 <a class="dropdown-item" href="#">Our Vision and Mission</a>
                                 <a class="dropdown-item" href="#">Our Values</a> 
@@ -36,35 +43,45 @@
                             </div>                             
                         </li>                         
                         <li class="nav-item dropdown"> 
-                            <a class="dropdown-toggle nav-link p-lg-3 px-lg-3 py-lg-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Team</a> 
+                            <a class="dropdown-toggle nav-link pb-lg-1 pe-lg-3 ps-lg-3 pt-lg-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Team</a> 
                             <div class="bg-light dropdown-menu opacity-85" aria-labelledby="navbarDropdownMenuLink"> 
-                                <a class="dropdown-item" href="#">Our Geographic Map</a> 
-                                <a class="dropdown-item" href="#">Tony Casella</a> 
-                                <a class="dropdown-item" href="#">Brenden Adams, P.E.</a>
-                                <a class="dropdown-item" href="#">Chris Kahanek, S.E., AIA</a> 
-                                <a class="dropdown-item" href="#">Payden Johnson, P.E.</a> 
-                                <a class="dropdown-item" href="#">Robert Merkel, P.E.</a> 
+                                <a class="dropdown-item" href="#geographicReach">Our Geographic Reach</a> 
+                                <a class="dropdown-item" href="#tCasella">Tony Casella</a> 
+                                <a class="dropdown-item" href="#bAdams">Brenden Adams, P.E.</a>
+                                <a class="dropdown-item" href="#cKahanek">Chris Kahanek, S.E., AIA</a> 
+                                <a class="dropdown-item" href="#pJohnson">Payden Johnson, P.E.</a> 
+                                <a class="dropdown-item" href="#rMerkel">Robert Merkel, P.E.</a>
+                                <a class="dropdown-item" href="#bCole">Brandy Cole</a> 
                             </div>                             
                         </li>                         
                         <li class="nav-item dropdown"> 
-                            <a class="dropdown-toggle nav-link p-lg-3 px-lg-3 py-lg-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a> 
+                            <a class="dropdown-toggle nav-link pb-lg-1 pe-lg-3 ps-lg-3 pt-lg-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a> 
                             <div class="bg-light dropdown-menu opacity-85" aria-labelledby="navbarDropdownMenuLink"> 
-                                <a class="dropdown-item" href="#">Property Loss Response</a> 
+                                <a class="dropdown-item" href="#propLossResponse">Property Loss Response</a> 
                                 <a class="dropdown-item" href="#">Construction/Design Defect</a> 
                                 <a class="dropdown-item" href="#">Emergency Construction Support</a>
                                 <a class="dropdown-item" href="#">Repair/Restoration Design</a> 
                             </div>                             
                         </li>                         
-                        <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4" href="contact.html">Contact Us</a> 
+                        <li class="nav-item dropdown"> 
+                            <a class="dropdown-toggle nav-link pb-lg-1 pe-lg-3 ps-lg-3 pt-lg-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</a> 
+                            <div class="bg-light dropdown-menu opacity-85" aria-labelledby="navbarDropdownMenuLink"> 
+                                <a class="dropdown-item" href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="30" height="20" viewBox="0 0 24 24" class="">
+                                        <path d="M3.59 1.322l2.844-1.322 4.041 7.89-2.725 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.861 3.591-19.101-18.258-11.384-22.281zm1.93 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398zm7.832 7.649l2.917.87c.223-.747.16-1.579-.24-2.317-.399-.739-1.062-1.247-1.808-1.469l-.869 2.916zm1.804-6.059c1.551.462 2.926 1.516 3.756 3.051.831 1.536.96 3.263.498 4.813l-1.795-.535c.325-1.091.233-2.306-.352-3.387-.583-1.081-1.551-1.822-2.643-2.146l.536-1.796zm.95-3.186c2.365.705 4.463 2.312 5.729 4.656 1.269 2.343 1.466 4.978.761 7.344l-1.84-.548c.564-1.895.406-4.006-.608-5.882-1.016-1.877-2.696-3.165-4.591-3.729l.549-1.841z"/>
+                                    </svg>Phone</a>
+                                <a class="dropdown-item" href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="30" height="20" viewBox="0 0 24 24">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                    </svg>Linkedin</a>
+                                <a class="dropdown-item" href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="30" height="20" viewBox="0 0 24 24">
+                                        <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                                    </svg>Email</a>
+                                <a class="dropdown-item" href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="30" height="24" viewBox="0 0 24 24">
+                                        <path d="M22 5v14h-20v-14h20zm2-2h-24v18h24v-18zm-10 13.597v.403h-10v-.417c-.004-1.112.044-1.747 1.324-2.043 1.403-.324 2.787-.613 2.122-1.841-1.973-3.637-.563-5.699 1.554-5.699 2.077 0 3.521 1.985 1.556 5.699-.647 1.22.688 1.51 2.121 1.841 1.284.297 1.328.936 1.323 2.057zm6-9.597h-4v2h4v-2zm0 4h-4v2h4v-2zm0 4h-4v2h4v-2z"/>
+                                    </svg>Vcard</a> 
+                            </div>                             
                         </li>                         
-                    </ul>                     
-                    <button class="btn btn-outline-light border-0 py-2 order-lg-1" type="button" aria-label="search"> 
-                        <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"> 
-                            <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/> 
-                        </svg>                         
-                    </button>                     
-                </div>                 
+                    </ul>
+                </div>
             </div>             
         </nav>
         <div id="carousel1" class="carousel slide" data-bs-ride="carousel"> 
@@ -103,9 +120,9 @@
         </div>
         <div class="container mt-5  pe-4 ps-4">
             <div class="row"> 
-                <div class="border border-secondary col-md-4 mb-5 p-4 shadow">
-                    <h3>The Problem</h3> 
-                    <p class="text-dark">The building investigation and restoration industry is lagging behind most others in its adoption of modern communication technology. Most forensic engineers and architects use decades-old processes and communication tools considered nearly obsolete in other professional service industries. Our profession is providing archaic work product at glacial speeds.</p>
+                <div class="background-center-top background-cover bg-light border border-secondary col-md-4 mb-5 p-4 shadow">
+                    <h3>There is a problem...</h3> 
+                    <p class="text-dark">The building restoration industry has fallen behind most others in its use of modern communication technology. Forensic engineers and architects use decades-old processes and communication tools considered obsolete in other professional service industries. <b><i>Forensic engineers are producing old-fashioned, barely useful work product at glacial speeds.</i></b></p>
                 </div>
                 <div class="col-md-8  ps-md-5">
                     <h1 class="text-secondary">Our Vision and Mission</h1> 
@@ -124,7 +141,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 p-3 pb-xl-5 pe-xl-5 pt-xl-5">
-                        <div class="bg-white h-100 p-3 shadow">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Purposeful Speed</h3>
                             <svg viewBox="502.998 220.979 22.811 23.658" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="g-2" transform="matrix(1, 0, 0, 1, 502.997864, 220.979172)">
@@ -136,7 +153,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-3 pb-xl-5 ps-xl-5 pt-xl-5">
-                        <div class="bg-white p-3 shadow h-100">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Technophilia</h3>
                             <svg viewBox="500.859 247.204 26.458 25.323" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="g-3" transform="matrix(1, 0, 0, 1, 500.85907, 247.203659)">
@@ -148,7 +165,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6  p-3 pb-xl-5 pe-xl-5 pt-xl-5">
-                        <div class="bg-white p-3 shadow h-100">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Team Commitment</h3>
                             <svg viewBox="490.503 206.741 31.805 25.374" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="g-5" transform="matrix(1, 0, 0, 1, 490.503296, 206.741013)">
@@ -161,7 +178,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6  p-3 pb-xl-5 ps-xl-5 pt-xl-5">
-                        <div class="bg-white p-3 shadow h-100">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Physical Fitness</h3>
                             <svg viewBox="13.496 16.457 24.341 22.086" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="layer1" transform="matrix(1, 0, 0, 1, 13.495819, 16.457474)">
@@ -173,7 +190,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6  p-3 pb-xl-5 pe-xl-5 pt-xl-5">
-                        <div class="bg-white p-3 shadow h-100">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Humble Interaction</h3>
                             <svg viewBox="469.32 228.652 24.515 24.298" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="g-1" transform="matrix(1, 0, 0, 1, 469.320099, 228.651886)">
@@ -185,7 +202,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6  p-3 pb-xl-5 ps-xl-5 pt-xl-5">
-                        <div class="bg-white p-3 shadow h-100">
+                        <div class="bg-white border border-secondary h-100 p-3 shadow">
                             <h3 class="text-dark">Integrity</h3>
                             <svg viewBox="464.516 268.774 24.339 23.124" xmlns="http://www.w3.org/2000/svg" class="float-start me-4 mt-2" width="25%">
                                 <g id="g-6" transform="matrix(1, 0, 0, 1, 464.516235, 268.773926)">
@@ -199,20 +216,19 @@
                 </div>
             </div>
         </div>
-        <div class="container pt-5 pb-5">
+        <div id="geographicReach" class="container min-vh-100  pt-5">
             <div class="row"> 
-                <div class="col-12 col-lg-8 offset-lg-2"> 
-                    <h1 class="mb-4 text-center text-dark">Our Geographic Reach</h1>
+                <div class="col-12 col-xl-10 offset-xl-1"> 
+                    <h1 class="mb-4 pt-5 text-center text-secondary">Our Geographic Reach</h1>
                     <div id="map"></div>
                 </div>                 
             </div>             
         </div>
         <div class="container mw-100">
-            <div class="mb-xl-5 mt-1 mt-xl-5 row text-light">
-                <div class="background-cover background-left-top border-5 col-xl-2 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
-                    <p class="robotoMono">+1.913.000.0000<br>Olathe, KS</p>
-                </div>
-                <div class="background-cover background-left-top bg-dark border-5 col-xl-10 p-3" style="background-image:url('pics/fadeTransRed.svg');">
+            <div id="tCasella" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-left-top col-xl-3 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
+</div>
+                <div class="background-cover background-left-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeTransRed.svg');">
                     <div class="row">
                         <div class="col-md-2 pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_t.casella-400.jpg" width="100%" class="mb-2"/>
@@ -239,11 +255,11 @@
                         <div class="col-md-2 lh-sm">
                             <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
                             <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Certifications</h6>
+                            <h6 class="text-white">Certifications</h6>
                             <p>Registered Roof Observer (RRO)</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
+                            <h6 class="text-white">Featured Experience</h6> 
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                         </div>
                     </div>                     
@@ -251,8 +267,8 @@
             </div>
         </div>
         <div class="container mw-100">
-            <div class="mb-xl-5 mt-1 mt-xl-5 row text-light">
-                <div class="background-cover background-right-top bg-dark border-top border-white col-xl-10 p-3" style="background-image:url('pics/fadeBlueTrans.svg');">
+            <div id="bAdams" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-right-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeBlueTrans.svg');">
                     <div class="row">
                         <div class="col-md-2  pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_b.adams-400.jpg" width="100%" class="mb-2"/>
@@ -276,26 +292,24 @@
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p> 
                         </div>
                         <div class="col-md-2 lh-sm">
-                            <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
+                            <h6 class="text-white">P.E. / S.E.</h6>
                             <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Architect</h6>
+                            <h6 class="text-white">Architect</h6>
                             <p>AZ, TX, FL</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
+                            <h6 class="text-white">Featured Experience</h6> 
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                         </div>
                     </div>                     
                 </div>
-                <div class="align-items-xl-end background-cover background-left-top border-top border-white col-xl-2 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');">
-                    <p class="robotoMono">Austin, TX<br>+1.512.</p> 
-                </div>
+                <div class="align-items-xl-end background-cover background-left-top col-xl-3 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');"> 
+</div>
             </div>
-            <div class="border-bottom border-top border-white row text-light">
-                <div class="background-cover background-left-top border-5 col-xl-2 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
-                    <p class="robotoMono">+1.602.837.4945<br>Phoenix, AZ</p>
-                </div>
-                <div class="background-cover background-left-top bg-dark border-5 col-xl-10 p-3" style="background-image:url('pics/fadeTransWhite.svg');">
+            <div id="cKahanek" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-left-top col-xl-3 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
+</div>
+                <div class="background-cover background-left-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeTransWhite.svg');">
                     <div class="row">
                         <div class="col-md-2 pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_c.kahanek-400.jpg" width="100%" class="mb-2"/>
@@ -315,26 +329,41 @@
                         <div class="col-md-4 lh-sm">
                             <h4 class="text-white">Chris Kahanek, P.E., S.E., AIA, CMEngNZ</h4>
                             <h6 class="text-uppercase text-warning">Vice President</h6> 
-                            <p class="">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p> 
+                            <p class="">Chris Kahanek has more than 17 years of international experience in design, and forensic consulting.</p>
+                            <p class="">His dual licensure allows him to provide a wide range of services including seismic evaluation and retrofit design; building envelope evaluation; due diligence; seismic risk evaluation; balcony inspection; code compliance consulting; property claims; design defect litigation support; and trial testimony,&nbsp;</p>
+                            <p class="">Chris is currently developing forensic investigation process solutions and web-based deliverables that utilize the Microsoft Common Data Model and Power Platform.</p> 
                         </div>
                         <div class="col-md-2 lh-sm">
-                            <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
-                            <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Certifications</h6>
-                            <p>Registered Roof Observer (RRO)</p>
+                            <h6 class="text-white">Contact</h6>
+                            <p>15640 N 7th St, Ste 8<br>Phoenix, AZ 85022</p>
+                            <p>+1.213.810.2266</p>
+                            <p></p>
+                            <h6 class="text-white">P.E. / S.E.</h6>
+                            <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO, New Zealand</p>
+                            <h6 class="text-white">Architect</h6>
+                            <p>AZ, FL, NC, TX</p>
+                            <h6 class="text-white">Affiliations</h6>
+                            <p>NCARB, NCEES, APEC, IPENZ</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                            <h6 class="text-white">Featured Experience</h6>
+                            <ul> 
+                                <li>Various hail and wind storm damage evaluations</li>
+                                <li>California Judicial Council damage evaluations (2019 Ridgecrest EQ)</li>
+                                <li>California wood-framed balcony evaluation and repair (various projects)</li>
+                                <li>Hurricane damage evaluation and repair (Ida, Laura, Delta, Zeta, Irma, Michael, Harvey, Ike)</li>                                 
+                                <li>Mexico City seimic retrofit evaluations (2017 Puebla EQ)</li>
+                                <li>Prattley v Vero Insurance NZ trial testimony (2014)</li>
+                                <li>New Zealand earthquake evaluations (2010-11 Canterbury, 2013-14 Cook Strait)</li>                                 
+                            </ul>                             
                         </div>
                     </div>                     
                 </div>
             </div>
         </div>
         <div class="container mw-100">
-            <div class="mb-xl-5 mt-1 mt-xl-5 row text-light">
-                <div class="background-cover background-right-top bg-dark border-top border-white col-xl-10 p-3" style="background-image:url('pics/fadeRedTrans.svg');">
+            <div id="pJohnson" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-right-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeRedTrans.svg');">
                     <div class="row">
                         <div class="col-md-2  pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_p.johnson-400.jpg" width="100%" class="mb-2"/>
@@ -358,26 +387,24 @@
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p> 
                         </div>
                         <div class="col-md-2 lh-sm">
-                            <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
+                            <h6 class="text-white">P.E. / S.E.</h6>
                             <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Architect</h6>
+                            <h6 class="text-white">Affiliations</h6>
                             <p>AZ, TX, FL</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
+                            <h6 class="text-white">Featured Experience</h6> 
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                         </div>
                     </div>                     
                 </div>
-                <div class="align-items-xl-end background-cover background-left-top border-top border-white col-xl-2 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');">
-                    <p class="robotoMono">North Texas<br>+1.213.810.2266</p> 
-                </div>
+                <div class="align-items-xl-end background-cover background-left-top col-xl-3 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');"> 
+</div>
             </div>
-            <div class="border-bottom border-top border-white row text-light">
-                <div class="background-cover background-left-top border-5 col-xl-2 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
-                    <p class="robotoMono">+1.512.000.0000<br>Milwaukee, WI</p>
-                </div>
-                <div class="background-cover background-left-top bg-dark border-5 col-xl-10 p-3" style="background-image:url('pics/fadeTransBlue.svg');">
+            <div id="rMerkel" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-left-top col-xl-3 d-none d-xl-block lh-sm pt-xl-3 text-xl-end" style="background-image:url('pics/scalpel-dark.svg');">
+</div>
+                <div class="background-cover background-left-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeTransBlue.svg');">
                     <div class="row">
                         <div class="col-md-2 pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_c.kahanek-400.jpg" width="100%" class="mb-2"/>
@@ -401,13 +428,13 @@
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p> 
                         </div>
                         <div class="col-md-2 lh-sm">
-                            <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
+                            <h6 class="text-white">P.E. / S.E.</h6>
                             <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Certifications</h6>
+                            <h6 class="text-white">Certifications</h6>
                             <p>Registered Roof Observer (RRO)</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
+                            <h6 class="text-white">Featured Experience</h6> 
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                         </div>
                     </div>                     
@@ -415,8 +442,8 @@
             </div>
         </div>
         <div class="container mw-100">
-            <div class="mb-xl-5 mt-1 mt-xl-5 row text-light">
-                <div class="background-cover background-right-top bg-dark border-top border-white col-xl-10 p-3" style="background-image:url('pics/fadeWhiteTrans.svg');">
+            <div id="bCole" class="mb-xl-5 mt-1 mt-xl-5 row text-light">
+                <div class="background-cover background-right-top bg-dark col-xl-9 p-3" style="background-image:url('pics/fadeWhiteTrans.svg');">
                     <div class="row">
                         <div class="col-md-2  pb-2 pe-5 pe-md-1 pe-xxl-5 ps-5 ps-md-2 ps-xxl-5 pt-2 text-center">
                             <img src="pics/cv_c.kahanek-400.jpg" width="100%" class="mb-2"/>
@@ -440,66 +467,75 @@
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p> 
                         </div>
                         <div class="col-md-2 lh-sm">
-                            <h6 class="text-uppercase text-white">P.E. / S.E.</h6>
+                            <h6 class="text-white">P.E. / S.E.</h6>
                             <p>TX, CA, UT, HI, NV, AZ, LA, OR, ID, CO</p>
-                            <h6 class="text-uppercase text-white">Architect</h6>
+                            <h6 class="text-white">Architect</h6>
                             <p>AZ, TX, FL</p>
                         </div>
                         <div class="col-md-4 lh-sm">
-                            <h6 class="text-uppercase text-white">Featured Experience</h6> 
+                            <h6 class="text-white">Featured Experience</h6> 
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                         </div>
                     </div>                     
                 </div>
-                <div class="align-items-xl-end background-cover background-left-top border-top border-white col-xl-2 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');">
-                    <p class="robotoMono">Nashville, TN<br>+1.213.810.2266</p> 
-                </div>
+                <div class="align-items-xl-end background-cover background-left-top col-xl-3 d-none d-xl-flex lh-sm pt-xl-3" style="background-image:url('pics/scalpel-dark-triangle.svg');"> 
+</div>
             </div>
         </div>
-        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('https://images.unsplash.com/photo-1443916568596-df5a58c445e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
+        <section id="propLossResponse" class="background-center-center background-cover bg-dark mb-5 mt-5 pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('pics/svcsPropLoss.JPG');">
             <div class="container pb-5 pt-5">
-                <div class="pb-5 pt-5 row">
-                    <div class="col-lg-6 offset-lg-6 pb-5 pt-5">
-                        <p class="h6 text-primary text-uppercase">The Latest</p>
+                <div class="pb-5 pe-2 ps-2 pt-5 row">
+                    <div class="background-cover background-left-bottom col-lg-6  offset-lg-6 pb-5 pt-5" style="background-image:url('pics/fadeBlueTrans.svg');">
+                        <p class="h6 text-uppercase text-warning">Core Service</p>
                         <h1 class="display-4 fw-bold mb-3 text-white">Property Loss Response</h1>
-                        <p class="fw-light lead mb-4">Our ability to feel, act and communicate is indistinguishable from magic.</p>
-                        <a href="#" class="btn btn-primary text-uppercase">Get It Now</a>
+                        <p class="mb-4 text-light">Lorem ipsum dolor sit amet, pro an paulo probatus, homero consulatu ex per, usu ex enim wisi sententiae. Ad eos lorem aeterno interesset, id vis nulla impedit disputando, nec ne alterum iracundia. Ne alii fabulas qui, minim errem cu nec. Latine labores ut mei. Ei usu tota meliore vivendum. Cum eu regione singulis assentior, eam virtute civibus denique te.
+Ut eum dico eirmod. </p>
+                        <p class="mb-4 text-light">Te sed mollis doctus utroque, in sea modo hendrerit complectitur.</p>
+                        <p class="mb-4 text-light">Usu id labitur sanctus admodum, conceptam philosophia theophrastus vis ad, his in corpora evertitur. Et nam nostro euripidis, ea pro veniam nonumy delicatissimi, et sit probo integre omittam.</p>
+                        <a href="#" class="btn btn-primary text-uppercase">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>         
-        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('https://images.unsplash.com/photo-1443916568596-df5a58c445e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
+        <section class="background-center-center background-cover bg-dark mb-5 pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('pics/svcsDefect.JPG');">
             <div class="container pb-5 pt-5">
-                <div class="pb-5 pt-5 row">
-                    <div class="col-lg-8 pb-5 pt-5">
-                        <p class="h6 text-primary text-uppercase">The Latest</p>
+                <div class="pb-5 pe-2 ps-2 pt-5 row">
+                    <div class="background-cover background-left-top col-lg-8  pb-5 pt-5" style="background-image:url('pics/fadeBlueTrans.svg');">
+                        <p class="h6 text-uppercase text-warning">Core Service</p>
                         <h1 class="display-4 fw-bold mb-3 text-white">Construction &amp; Design Defect Litigation</h1>
-                        <p class="fw-light lead mb-4">Our ability to feel, act and communicate is indistinguishable from magic.</p>
-                        <a href="#" class="btn btn-primary text-uppercase">Get It Now</a>
+                        <p class="mb-4 text-light">Lorem ipsum dolor sit amet, pro an paulo probatus, homero consulatu ex per, usu ex enim wisi sententiae. Ad eos lorem aeterno interesset, id vis nulla impedit disputando, nec ne alterum iracundia.</p>
+                        <p class="mb-4 text-light">Ei consequat concludaturque cum, homero definitionem ea his, cum augue vitae verterem an. Te vis sint definitionem, justo aliquam ad sed.</p>
+                        <p class="mb-4 text-light">Et nam nostro euripidis, ea pro veniam nonumy delicatissimi, et sit probo integre omittam.
+Dicunt ocurreret duo ut, in sed detraxit definitiones, cu fugit mediocrem eam. Ne meis timeam his.</p>
+                        <a href="#" class="btn btn-primary text-uppercase">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>         
-        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('https://images.unsplash.com/photo-1443916568596-df5a58c445e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
+        <section class="background-cover bg-dark mb-5 pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('pics/svcsEmergency.JPG');">
             <div class="container pb-5 pt-5">
-                <div class="pb-5 pt-5 row">
-                    <div class="col-lg-8 offset-lg-4 pb-5 pt-5">
-                        <p class="h6 text-primary text-uppercase">The Latest</p>
+                <div class="pb-5 pe-2 ps-2 pt-5 row">
+                    <div class="background-cover background-left-top col-lg-8  offset-lg-4 pb-5 pt-5" style="background-image:url('pics/fadeBlueTrans.svg');">
+                        <p class="h6 text-uppercase text-warning">Core Service</p>
                         <h1 class="display-4 fw-bold mb-3 text-white">Emergency Construction Support</h1>
-                        <p class="fw-light lead mb-4">Our ability to feel, act and communicate is indistinguishable from magic.</p>
-                        <a href="#" class="btn btn-primary text-uppercase">Get It Now</a>
+                        <p class="mb-4 text-light">Lorem ipsum dolor sit amet, pro an paulo probatus, homero consulatu ex per, usu ex enim wisi sententiae. Ad eos lorem aeterno interesset, id vis nulla impedit disputando, nec ne alterum iracundia. Ne alii fabulas qui, minim errem cu nec. Latine labores ut mei. Ei usu tota meliore vivendum.</p>
+                        <p class="mb-4 text-light">Et nam nostro euripidis, ea pro veniam nonumy delicatissimi, et sit probo integre omittam.
+Dicunt ocurreret duo ut, in sed detraxit definitiones, cu fugit mediocrem eam. Ne meis timeam his. Sea at mazim similique, mucius latine corpora ne his. Saperet epicurei ei vix, et exerci primis option vix, qui ridens eripuit contentiones ad.</p>
+                        <a href="#" class="btn btn-primary text-uppercase">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>         
-        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('https://images.unsplash.com/photo-1443916568596-df5a58c445e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');">
+        <section class="background-cover background-left-center bg-dark pb-5 position-relative pt-5 text-secondary vh-100" style="background-image:url('pics/svcsRepair.JPG');">
             <div class="container pb-5 pt-5">
-                <div class="pb-5 pt-5 row">
-                    <div class="col-lg-7 pb-5 pt-5">
-                        <p class="h6 text-primary text-uppercase">The Latest</p>
+                <div class="pb-5 pe-2 ps-2 pt-5 row">
+                    <div class="background-cover background-left-top col-lg-7  pb-5 pt-5" style="background-image:url('pics/fadeBlueTrans.svg');">
+                        <p class="h6 text-uppercase text-warning">Core Service</p>
                         <h1 class="display-4 fw-bold mb-3 text-white">Repair &amp; Restoration Design</h1>
-                        <p class="fw-light lead mb-4">Our ability to feel, act and communicate is indistinguishable from magic.</p>
-                        <a href="#" class="btn btn-primary text-uppercase">Get It Now</a>
+                        <p class="mb-4 text-light">Lorem ipsum dolor sit amet, pro an paulo probatus, homero consulatu ex per, usu ex enim wisi sententiae. Ad eos lorem aeterno interesset, id vis nulla impedit disputando, nec ne alterum iracundia. Ne alii fabulas qui, minim errem cu nec. Latine labores ut mei. Ei usu tota meliore vivendum. Cum eu regione singulis assentior, eam virtute civibus denique te.
+Ut eum dico eirmod.</p>
+                        <p class="mb-4 text-light">Ei consequat concludaturque cum, homero definitionem ea his, cum augue vitae verterem an. Te vis sint definitionem, justo aliquam ad sed.</p>
+                        <a href="#" class="btn btn-primary text-uppercase">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -540,8 +576,7 @@
                                 <a href="#" class="text-white">Get Quote</a> 
                             </li>                             
                             <li class="mb-3"> 
-                                <a href="#" class="text-white">Enterprise Plan</a> 
-                            </li>                             
+</li>                             
                             <li class="mb-3"> 
                                 <a href="#" class="text-white">Become an Affiliate</a> 
                             </li>                             
@@ -557,16 +592,12 @@
                                 <a href="#" class="text-white">Web Design</a> 
                             </li>                             
                             <li class="mb-3"> 
-                                <a href="#" class="text-white">Web Development</a> 
-                            </li>                             
+</li>                             
                             <li class="mb-3"> 
                                 <a href="#" class="text-white">WordPress</a> 
                             </li>                             
                             <li class="mb-3"> 
                                 <a href="#" class="text-white">Digital Marketing</a> 
-                            </li>                             
-                            <li class="mb-3"> 
-                                <a href="#" class="text-white">Content Writing</a> 
                             </li>                             
                         </ul>                         
                     </div>                     
@@ -583,8 +614,7 @@
                                 <a href="#" class="text-white">Licence</a> 
                             </li>                             
                             <li class="mb-3"> 
-                                <a href="#" class="text-white">Refund Policy</a> 
-                            </li>                             
+</li>                             
                             <li class="mb-3"> 
                                 <a href="#" class="text-white">Terms of Service</a> 
                             </li>                             
@@ -593,7 +623,7 @@
                 </div>                 
                 <div class="pb-3 pt-3 text-center"> 
                     <hr class="border-secondary mt-0"> 
-                    <p class="mb-0">Copyright © 2020 Company Name</p> 
+                    <p class="mb-0">Copyright &copy; 2022 Forensic Engineering Company, LLC</p> 
                 </div>                 
             </div>             
         </footer>
@@ -601,5 +631,6 @@
         <!-- Scripts for the interactive map edited at: https://simplemaps.com/custom/us/jE3sj1qY -->
         <script type="text/javascript" src="assets/js/mapdata.js"></script>         
         <script type="text/javascript" src="assets/js/usmap.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
     </body>
 </html>
